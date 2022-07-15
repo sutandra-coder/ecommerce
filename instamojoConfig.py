@@ -1,0 +1,3 @@
+CLIENT_ID =  'test_uchmn4APhh3kl1dIDuOWdIEdCsNZthMm5NM'
+CLIENT_SECRET = 'test_ByHUwjpVkpWffQCjY9CashZbHfuGSFh9dsoA8OdoDBSlzNZeX00J4B1YJOWY7JeBCxBRBbDiBgl1v49WUBfgr3b1h9V2NT5NNg4WZbmo2WqUJXWvevBeuxOVdNx'
+referrer = 'creamsonmyelsa'
