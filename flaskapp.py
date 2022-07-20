@@ -4,9 +4,6 @@ from flask import Blueprint
 
 from ecommerce_login import ecommerce_login
 from ecommerce_retailer import ecommerce_retailer
-from ecommerce_customer import ecommerce_customer
-from ecommerce_customer_new import ecommerce_customer_new
-from ecommerce_customer_new_with_language import ecommerce_customer_new_with_language
 from ecommerce_product import ecommerce_product
 from ecommerce_discount import ecommerce_discount
 from ecommerce_campaign import ecommerce_campaign
@@ -79,9 +76,6 @@ app = Flask(__name__)
 
 app.register_blueprint(ecommerce_login, url_prefix='/ecommerce_login')
 app.register_blueprint(ecommerce_retailer, url_prefix='/ecommerce_retailer')
-app.register_blueprint(ecommerce_customer, url_prefix='/ecommerce_customer')
-app.register_blueprint(ecommerce_customer_new, url_prefix='/ecommerce_customer_new')
-app.register_blueprint(ecommerce_customer_new_with_language, url_prefix='/ecommerce_customer_new_with_language')
 app.register_blueprint(ecommerce_product, url_prefix='/ecommerce_product')
 app.register_blueprint(ecommerce_discount, url_prefix='/ecommerce_discount')
 app.register_blueprint(react_customer, url_prefix='/react_customer')
