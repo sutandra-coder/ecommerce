@@ -38,7 +38,6 @@ from zoho_crm_ecommerce_product import zoho_crm_ecommerce_product
 from zoho_crm_pos import zoho_crm_pos
 from social_photo import social_photo
 from ecommerce_emi import ecommerce_emi
-from social_photo_face_recognition_new import social_photo_face_recognition_new
 from woocommerce_product import woocommerce_product
 from ecommerce_promoter import ecommerce_promoter
 from bakes_and_cakes import bakes_and_cakes
@@ -108,7 +107,6 @@ app.register_blueprint(zoho_crm_ecommerce_product, url_prefix='/zoho_crm_ecommer
 app.register_blueprint(zoho_crm_pos, url_prefix='/zoho_crm_pos')
 app.register_blueprint(social_photo, url_prefix='/social_photo')
 app.register_blueprint(ecommerce_emi, url_prefix='/ecommerce_emi')
-app.register_blueprint(social_photo_face_recognition_new, url_prefix='/social_photo_face_recognition_new')
 app.register_blueprint(woocommerce_product, url_prefix='/woocommerce_product')
 app.register_blueprint(ecommerce_promoter, url_prefix='/ecommerce_promoter')
 app.register_blueprint(bakes_and_cakes, url_prefix='/bakes_and_cakes')
