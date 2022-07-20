@@ -47,7 +47,6 @@ from test_database import test_database
 from meprotect_mail import meprotect_mail
 from studybreak_examsection import exam_section
 from signup_section import signup_section
-from social_photo_face_recognition_with_amazon import social_photo_face_recognition_with_amazon
 from student_examsection import student_exam_section
 from dms_section import dms_section
 from esi_payment import esi_payment
@@ -116,8 +115,6 @@ app.register_blueprint(test_database, url_prefix='/test_database')
 app.register_blueprint(meprotect_mail, url_prefix='/meprotect_mail')
 app.register_blueprint(exam_section, url_prefix='/exam_section')
 app.register_blueprint(signup_section, url_prefix='/signup_section')
-app.register_blueprint(face_recognition_with_amazon, url_prefix='/face_recognition_with_amazon')
-app.register_blueprint(social_photo_face_recognition_with_amazon, url_prefix='/social_photo_face_recognition_with_amazon')
 app.register_blueprint(student_exam_section, url_prefix='/studentexam_section')
 app.register_blueprint(dms_section, url_prefix='/dms_section')
 app.register_blueprint(esi_payment, url_prefix='/esi_payment')
