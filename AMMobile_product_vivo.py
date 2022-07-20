@@ -1,7 +1,6 @@
 from pyfcm import FCMNotification
 from flask import Flask, request, jsonify, json,render_template
 from flask_api import status
-from jinja2._compat import izip
 from jinja2 import Environment, FileSystemLoader
 from datetime import datetime,timedelta,date
 import pymysql
@@ -11,7 +10,7 @@ from flask import Blueprint
 from flask_restplus import Api, Resource, fields
 from werkzeug.utils import cached_property
 from werkzeug.datastructures import FileStorage
-from werkzeug import secure_filename
+from werkzeug.utils import secure_filename
 import requests
 import calendar
 import json
