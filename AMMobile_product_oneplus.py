@@ -1,7 +1,6 @@
 from pyfcm import FCMNotification
 from flask import Flask, request, jsonify, json,render_template
-from flask_api import status
-from jinja2._compat import izip
+from flask_api import statu
 from jinja2 import Environment, FileSystemLoader
 from datetime import datetime,timedelta,date
 import pymysql
