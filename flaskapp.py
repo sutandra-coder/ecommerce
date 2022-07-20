@@ -37,7 +37,6 @@ from zoho_crm import zoho_crm
 from zoho_crm_ecommerce_product import zoho_crm_ecommerce_product
 from zoho_crm_pos import zoho_crm_pos
 from social_photo import social_photo
-from face_detection import face_detection
 from ecommerce_emi import ecommerce_emi
 from social_photo_face_recognition import social_photo_face_recognition
 from social_photo_face_recognition_new import social_photo_face_recognition_new
@@ -50,7 +49,6 @@ from test_database import test_database
 from meprotect_mail import meprotect_mail
 from studybreak_examsection import exam_section
 from signup_section import signup_section
-from face_recognition_with_amazon import face_recognition_with_amazon
 from social_photo_face_recognition_with_amazon import social_photo_face_recognition_with_amazon
 from student_examsection import student_exam_section
 from dms_section import dms_section
@@ -110,7 +108,6 @@ app.register_blueprint(zoho_crm, url_prefix='/zoho_crm')
 app.register_blueprint(zoho_crm_ecommerce_product, url_prefix='/zoho_crm_ecommerce_product')
 app.register_blueprint(zoho_crm_pos, url_prefix='/zoho_crm_pos')
 app.register_blueprint(social_photo, url_prefix='/social_photo')
-app.register_blueprint(face_detection, url_prefix='/face_detection')
 app.register_blueprint(ecommerce_emi, url_prefix='/ecommerce_emi')
 app.register_blueprint(social_photo_face_recognition, url_prefix='/social_photo_face_recognition')
 app.register_blueprint(social_photo_face_recognition_new, url_prefix='/social_photo_face_recognition_new')
