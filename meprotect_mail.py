@@ -1,6 +1,5 @@
 from flask import Flask, request, jsonify, json
 from flask_api import status
-from jinja2._compat import izip
 from datetime import datetime,date
 from datetime import timedelta
 from flask_cors import CORS, cross_origin
