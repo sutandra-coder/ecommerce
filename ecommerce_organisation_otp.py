@@ -1,6 +1,5 @@
 from flask import Flask, request, jsonify, json
 from flask_api import status
-from jinja2._compat import izip
 from jinja2 import Environment, FileSystemLoader
 from datetime import datetime,timedelta,date
 import pymysql
