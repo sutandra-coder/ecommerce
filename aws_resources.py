@@ -4,7 +4,7 @@ from flask_cors import CORS, cross_origin
 from flask import Blueprint
 from flask_restplus import Api, Resource, fields,reqparse
 from werkzeug.datastructures import FileStorage
-from werkzeug import secure_filename
+from werkzeug.utils import secure_filename
 from awsconfig import ACCESS_KEY,SECRET_KEY
 import requests
 import boto3
